@@ -11,7 +11,6 @@ function About() {
         {/* LEFT SIDE */}
         <div className="relative flex justify-center items-center">
 
-          {/* Floating cards */}
           <div className="absolute -top-6 -left-6 bg-neutral-900/80 backdrop-blur-md px-4 py-2 rounded-lg text-sm border border-neutral-800 text-neutral-200 animate-bounce shadow-md">
             💻 Developer
           </div>
@@ -22,8 +21,8 @@ function About() {
 
         </div>
 
-        {/* RIGHT SIDE - Content */}
-        <div className="flex flex-col gap-6">
+        {/* RIGHT SIDE */}
+        <div className="flex flex-col gap-6 md:-ml-40">
 
           <div>
             <h2 className="text-4xl font-bold text-cyan-500">
@@ -40,7 +39,7 @@ function About() {
             </p>
           </div>
 
-          {/* Small highlight stats */}
+          {/* Stats */}
           <div className="flex gap-4 flex-wrap">
             <div className="bg-cyan-950/30 px-4 py-2 rounded-lg border border-cyan-900/50">
               <p className="text-cyan-400 font-bold">10+ Projects</p>
