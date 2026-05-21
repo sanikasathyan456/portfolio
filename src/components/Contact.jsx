@@ -20,7 +20,7 @@ function Contact(){
             </div>
             <div>
               <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Email</p>
-              <p className="text-base font-semibold text-slate-300">sanika@123gmail.com</p>
+              <p className="text-base font-semibold text-slate-300">sanikabsathyan63@gmail.com</p>
             </div>
           </div>
 
